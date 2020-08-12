@@ -68,13 +68,7 @@ i.	Have a procedure to configure workstations with inactivity time-outs that log
 
 j.	Review all system accounts at least every three (3) months and deactivate any accounts that are no longer necessary for operations; 
 
-k.	Lockout account access to Certificate Systems after no more than five (5) failed access attempts, provided that this security measure;
-
-    i. Is supported by the Certificate System,
-    
-    ii. Cannot be leveraged for a denial of service attack, and
-    
-    iii. Does not weaken the security of this authentication control;
+k.	Implement controls to protect its Certificate Systems from brute force attacks e.g. by designing their architecture to withstand such attacks, by using strong authentication or by implementing account lockout rules.
 
 l.	Implement a process that disables all privileged access of an individual to Certificate Systems  within twenty four (24) hours upon termination of the individual’s employment or contracting relationship with the CA or Delegated Third Party;
 
